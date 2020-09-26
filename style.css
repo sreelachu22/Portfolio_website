@@ -1,3 +1,153 @@
-first.{
-    background-color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 5%;
+    background-image: url("blue_back.PNG");
+}
+.name{
+    color: #0b003d;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: rgb(221, 1, 19);
+    text-shadow: purple;
+}
+.lachu{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20%;
+
+}
+
+.about{
+    text-align: start;
+    margin-bottom: 10%;
+    color: black;
+}
+
+.para{
+    background-color: rgb(248, 85, 213);
+    color: rgb(27, 3, 66);
+    text-align: justify;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-size-adjust: 10%;
+}
+
+.goals{
+    text-align: start;
+    margin-bottom: 10;
+    color: black;
+}
+
+.crcl{
+    margin-top: 15%;
+    margin-bottom: 30%;
+    text-align: center;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.academics{
+    text-align: start;
+    margin-bottom: 10%;
+    color: black;
+}
+.sqr{
+    margin-top: 15%;
+    margin-bottom: 30%;
+    text-align: center;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.skills{
+    margin-bottom: 10%;
+}
+
+.a{
+    text-align: start;
+    margin-bottom: 10%;
+    color: black;
+}
+
+.para2{
+    background-color: rgb(248, 85, 213);
+    color: rgb(27, 3, 66);
+    text-align: center;
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-size-adjust: 10%;
+}
+.art{
+    text-align: center;
+    color: red;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.drawing{
+    display: flex;
+}
+.btn{
+    margin-top: 23%;
+    color: rgb(40, 0, 134);
+    text-size-adjust: 1%;
+}
+.pic{
+    margin-left: 10%;
+}
+.tic{
+    display: flex;
+    justify-content: center;
+}
+.like{
+    margin-top: 2%;
+    color: rgb(27, 3, 66);
+}
+.checkbox{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: red;
+}
+.projects{
+    text-align: start;
+    margin-bottom: 5%;
+    color: black;
+}
+.para{
+    color: rgb(27, 3, 66);
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10%;
+    margin-left: 20%
+    margin-right: 20%;
+}
+.media{
+    text-align: start;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    color: black;
+}
+.page{
+    text-align: center;
+}
+.git{
+    text-align: center;
 }
