@@ -122,25 +122,24 @@
 							started pencil drawing.Now i am very confident about my drawings.I
 							am good in python and c programming languages.I practiced android
 							studio also.
-						</p></i
-					>
+						</p></i>
 				</div>
 			</div>
 			<div class="art">
 				<h1><i>My Art works</i></h1>
 			</div>
-
 			<div class="drawing">
 				<div class="btn">
-					<button type="button">
-						<img src="btn_icon.PNG" alt="click ME" />
+					<button type="button" id="drawings_btn">
+						<img src="btn_icon.PNG">
 					</button>
 				</div>
 				<div class="pic">
 					<img src="butterfly_drw.jpg" alt="Girl with wing drawing" />
+					<img src="./nagavalli_drw.jpg" alt="nagavalli drawing" />
+					<img src="princess_drw.jpg" alt="princess drawing" />
 				</div>
 			</div>
-
 			<div class="tic">
 				<div class="like">
 					<h3>
@@ -188,8 +187,25 @@
 	</body>
 </html>
 
-<script>
-	function figure(){
-	    if Img
-	}
-</script>
+<script src="./script.js">
+	 // Image counter
+let counter=1
+
+// Selectors
+const drawingsBtn=document.getElementById('drawings_btn')
+const drawings = Array.from(document.querySelectorAll('.pic img'))
+
+// Event Listeners
+drawingsBtn.addEventListener('click', changeDrawing)
+function changeDrawing(){
+    if(counter>=drawings.length){
+        drawings[counter-1].style.display="none"
+        counter=0;
+    }
+    for(let i=0;i<counter;i++){
+        drawings[i].style.display="none"
+    }
+    drawings[counter].style.display="block"
+    counter++
+} 
+</script> 
