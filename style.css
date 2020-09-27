@@ -3,69 +3,105 @@
     padding: 0;
 }
 body{
-    margin: 5%;
-    background-image: url("blue_back.PNG");
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-right: 4%;
+    background-image: url("star_back.PNG");
+    background-size: 100%;
 }
 .name{
-    color: #0b003d;
-    margin-top: 15%;
+    color: #84f4f8;
+    margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
-    text-decoration: rgb(221, 1, 19);
-    text-shadow: purple;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-image: 2%;
+}
+.img{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .lachu{
-    color: crimson;
+    color: rgb(245, 97, 126);
     text-align: center;
     margin-bottom: 20%;
 
+}
+.abt{
+    background-image: url("green_back.PNG");
+    background-size: 100%;
+    padding: 1%;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-bottom: 10%;
 }
 
 .about{
     text-align: start;
     margin-bottom: 10%;
-    color: black;
+    color: #10004b;
 }
 
 .para{
-    background-color: rgb(248, 85, 213);
-    color: rgb(27, 3, 66);
-    text-align: justify;
+    color: rgb(77, 0, 0);
+    font-size: 130%;
+    font-style: oblique;
+    font-weight: bolder;
     text-align: center;
+    text-align: justify;
     margin-top: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 7%;
     padding-bottom: 7%;
-    text-size-adjust: 10%;
 }
-
+.gls{
+    background-image: url("goal_back.PNG");
+    background-size: 100%;
+    padding: 1%;
+    margin-bottom:10%;
+}
 .goals{
     text-align: start;
-    margin-bottom: 10;
-    color: black;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    color: rgb(5, 0, 82);
 }
 
 .crcl{
     margin-top: 15%;
     margin-bottom: 30%;
+    color: rgb(9, 0, 139);
+    font-size: 130%;
+    font-style: oblique;
+    font-weight: bolder;
     text-align: center;
     text-align: justify;
     margin-left: 20%;
     margin-right: 20%;
 }
-
+.acadmcs{
+    background-image: url("academics_back.PNG");
+    background-size: 100%;
+    margin-bottom: 10%;
+    padding: 5%;
+}
 .academics{
     text-align: start;
     margin-bottom: 10%;
-    color: black;
+    color: rgb(25, 4, 83);
 }
 .sqr{
     margin-top: 15%;
     margin-bottom: 30%;
+    color: rgb(52, 0, 112);
+    font-size: 130%;
+    font-style: oblique;
+    font-weight: bolder;
     text-align: center;
     text-align: justify;
     margin-left: 20%;
@@ -74,16 +110,22 @@ body{
 .skills{
     margin-bottom: 10%;
 }
-
+.skill{
+    background-image: url("blueline_back.PNG");
+    padding: 1%;
+    background-size: 100%;
+}
 .a{
     text-align: start;
     margin-bottom: 10%;
-    color: black;
+    color: rgb(16, 0, 85);
 }
 
 .para2{
-    background-color: rgb(248, 85, 213);
-    color: rgb(27, 3, 66);
+    color: rgb(29, 0, 77);
+    font-size: 130%;
+    font-style: oblique;
+    font-weight: bolder;
     text-align: center;
     text-align: justify;
     margin-top: 5%;
@@ -98,7 +140,7 @@ body{
 }
 .art{
     text-align: center;
-    color: red;
+    color: rgb(238, 0, 0);
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -107,8 +149,7 @@ body{
 }
 .btn{
     margin-top: 23%;
-    color: rgb(40, 0, 134);
-    text-size-adjust: 1%;
+    color: rgb(47, 214, 219);
 }
 .pic{
     margin-left: 10%;
@@ -119,22 +160,32 @@ body{
 }
 .like{
     margin-top: 2%;
-    color: rgb(27, 3, 66);
+    font-size: 100%;
+    font-style: oblique;
+    color: rgb(39, 198, 226);
 }
 .checkbox{
     margin-top: 2%;
     margin-left: 2%;
-    color: red;
+    color: rgb(255, 27, 27);
+}
+.prjct{
+    background-image: url("lap_back.PNG");
+    background-size: 100%;
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .projects{
     text-align: start;
     margin-bottom: 5%;
-    color: black;
+    color: rgb(255, 255, 255);
 }
-.para{
-    color: rgb(27, 3, 66);
-    text-align: center;
+.para3{
+    color: rgb(0, 0, 0);
     text-align: justify;
+    text-align: center;
+    font-size: 150%;
     margin-bottom: 10%;
     margin-left: 20%
     margin-right: 20%;
@@ -143,11 +194,27 @@ body{
     text-align: start;
     margin-top: 10%;
     margin-bottom: 7%;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .page{
     text-align: center;
+    color: rgb(6, 0, 65);
+    font-size: 120%;
+    font-style: oblique;
+    margin: 2%;
+}
+.github{
+    text-decoration: none;
+    color: rgb(238, 0, 0);
 }
 .git{
+    text-decoration: none;
     text-align: center;
+    color: rgb(255, 0, 0);
+    margin-bottom: 3%;
+}
+.thank{
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
