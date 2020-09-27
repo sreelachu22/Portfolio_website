@@ -253,3 +253,43 @@ body{
     margin-left: 25%;
     margin-right: 25%;
 }
+<<<<<<< HEAD
+=======
+
+/*Drawings CSS*/
+.pic{
+    width: 500px;
+    height: 500px;
+    margin: 0;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.pic img:first-child{
+    display: block;
+}
+
+.drawing{
+    flex-flow: column-reverse;
+    align-items: center;
+}
+.drawing .btn{
+    margin-top: 50px;
+}
+
+.drawing .btn button{
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all .1s;
+}
+.drawing .btn button:hover{
+    background-color: rgb(85, 16, 99);
+    color: white;
+}
+>>>>>>> caae1cc1874e7cb065843254f66aff1018cfa5fb
