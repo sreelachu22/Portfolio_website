@@ -71,7 +71,12 @@ body{
     margin-top: 5%;
     color: rgb(5, 0, 82);
 }
+.quote{
+    font-size: 150%;
+    color: rgb(182, 0, 0);
+    margin-left: 10%;
 
+}
 .crcl{
     margin-top: 15%;
     margin-bottom: 30%;
@@ -104,7 +109,7 @@ body{
     font-weight: bolder;
     text-align: center;
     text-align: justify;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-right: 20%;
 }
 .skills{
@@ -141,6 +146,7 @@ body{
 .art{
     text-align: center;
     color: rgb(238, 0, 0);
+    font-size: 100;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -149,7 +155,7 @@ body{
 }
 .btn{
     margin-top: 23%;
-    color: rgb(47, 214, 219);
+    margin-left: 20%;
 }
 .pic{
     margin-left: 10%;
