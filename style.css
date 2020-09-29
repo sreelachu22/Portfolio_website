@@ -33,12 +33,11 @@ body{
   }
 
 .name{
-    color: #300d92;
+    color: #311192;
     margin-top: 2%;
     margin-bottom: 5%;
     text-align: center;
-    font-style: oblique;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     border-image: 2%;
 }
 
@@ -196,13 +195,13 @@ body{
     
     margin-bottom: 10%;
     margin-left: 4%;
-    color: #cf00ad;
+    color: #8a0473;
     font-size: 150%;
     font-family: cursive;
 }
 
 .para{
-    color: rgb(4, 59, 179);
+    color: rgb(4, 46, 138);
     font-size: 140%;
     font-family: cursive;
     font-weight: bolder;
@@ -242,7 +241,7 @@ body{
 .crcl{
     margin-top: 15%;
     margin-bottom: 30%;
-    color: rgb(228, 2, 115);
+    color: rgb(167, 3, 85);
     font-size: 160%;
     font-family: cursive;
     font-weight: bolder;
@@ -263,18 +262,17 @@ body{
     font-family: cursive;
     margin-left: 1%;
     margin-bottom: 10%;
-    color: rgb(11, 216, 28);
+    color: rgb(0, 134, 11);
 }
 .sqr{
     margin-top: 15%;
     margin-bottom: 30%;
-    color: rgb(0, 24, 77);
+    color: rgb(70, 3, 3);
     font-size: 150%;
     font-family: cursive;
-    font-weight: bolder;
+    text-align: justify;
     text-align: center;
     text-align: start;
-    text-align: justify;
     margin-left: 5%;
     margin-right: 20%;
 }
@@ -296,7 +294,7 @@ body{
 }
 
 .para2{
-    color: rgb(255, 105, 5);
+    color: rgb(24, 0, 160);
     font-size: 150%;
     font-family: cursive;
     font-weight: bolder;
@@ -316,7 +314,7 @@ body{
 
 .art{
     text-align: center;
-    color: rgb(124, 233, 22);
+    color: rgb(145, 255, 2);
     font-size: 150%;
     font-family: cursive;
     margin-left: 3%;
@@ -369,9 +367,9 @@ body{
 }
 .click{
     text-align: center;
-    font-size: 120%;
-    color: blue;
-    margin-top: 2%;
+    font-size: 130%;
+    color: rgb(0, 0, 136);
+    margin-top: 1%;
     font-family: cursive;
 }
 .checkbox{
@@ -394,7 +392,7 @@ body{
     color: rgba(172, 0, 52, 0.849);
 }
 .para3{
-    color: rgb(37, 82, 0);
+    color: rgb(31, 63, 5);
     text-align: justify;
     text-align: center;
     font-size: 150%;
